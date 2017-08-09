@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <title>Book</title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="portfolio.jquery.css">
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="portfolio.jquery.js"></script>
+
+      
+
+   
+
+
+
+        <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <!-- Gradient BG CSS -->
+    <link rel="stylesheet" href="css/gradient.css">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <script>
+            $(document).ready(function() {
+                $('.thumbs').portfolio({
+                    cols: 4,
+                    transition: 'slideDown'
+                });
+            });
+        </script>
+        <style>
+            body {
+                font-family: 'Helvetica', sans-serif !important;
+            }
+
+            .navbar-custom {
+            font-family: 'Helvetica', sans-serif !important;
+            font-weight: 100 !important;
+            }
+
+            .navbar-brand {
+            font-family: 'Helvetica', sans-serif !important;
+            font-weight: 100 !important;
+            text-transform: uppercase;
+            color: #000 !important;
+
+            }
+
+             .navbar-custom li a:hover,
+            .navbar-custom li a:active,{
+            color: #000 !important;
+             }
+
+
+            .navbar-right #book {
+                color: #000;
+                text-decoration: line-through;
+            }
+
+            
+
+            .space {
+                display: block;
+                width: 100%;
+                margin-top: 50px;
+                margin-bottom: 200px;
+            }
+
+            a img:hover,
+            a img:focus {
+   
+            opacity: .5 !important;
+            cursor: pointer !important;
+            }
+
+            }
+            h1 {
+                margin-bottom: 0px;
+                margin-top: 30px;
+            }
+            h3 {
+                margin-top: 10px;
+                font-weight: normal;
+                color: #a6a6a6;
+            }
+            p {
+                line-height: 25px;
+            }
+            a.button {
+                text-decoration: none;
+            }
+            .button {
+                padding: 14px 22px;
+                background-color: #cecece;
+                color: #333333;
+                border-radius: 3px;
+                margin-bottom: 20px;
+                display: inline-block;
+            }
+            .button:hover {
+                background-color: #e1e1e1;
+            }
+
+            .btn {
+                background-color: #000 !important;
+                color: #fff;
+                font-family: 'Share Tech Mono', monospace;
+
+
+            }
+
+            .btn:hover {
+                background-color: #333333 !important;
+            }
+            .thumbs {
+                display: block;
+                margin-top: 100px;
+                color: #000;
+            }
+
+            .display {
+                font-size: 40px;
+                letter-spacing: 5px;
+                text-align: left;
+
+            }
+
+            .copyright {
+            font-family: 'HelveticaNeue-Light', sans-serif !important;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #fff;
+            font-size: 8pt !important; 
+            }
+
+
+            
+            @media only screen and (max-width: 768px) {
+                .space {
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+    <div id="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand visible-xs" href="post.html">Randomood </a>
+
+                <a class="navbar-brand" href="post.html">
+                
+                <img class="hidden-xs" src="img/randomood_log.png" alt="Randomood" >
+
+
+
+
+                
+                </a> 
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="book.html" id="book">Book</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html" id="about">About</a>
+                    </li>
+                    <li>
+                        <a href="contactme.html" id="contact">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    </div>
+        <div class="space">
+            
+            
+            
+        </div>
+        <ul class="thumbs">
+            <li><a href="#thumb1" class="thumbnail" style="background-image: url('img/thumbs/hundredfires_thumb.png')">
+                <h4>Branding</h4><span class="description">Project: Government</span></a>
+            </li>
+            <li>
+                <a href="#thumb2" class="thumbnail" style="background-image: url('img/thumbs/anatomy_thumb.png')"><h4>Illustration</h4><span class="description">Project: Anatomy </span></a>
+            </li>
+            <li>
+                <a href="#thumb3" class="thumbnail" style="background-image: url('img/thumbs/boiler_thumb.png')" ><h4>Poster Design</h4><span class="description">Project: Boiler Room</span></a>
+            </li>
+            <li>
+                <a href="#thumb4" class="thumbnail" style="background-image: url('img/thumbs/catppl_thumb.png')"><h4>Logotype</h4><span class="description">Project: Veterinary</span></a>
+            </li>
+            <li>
+                <a href="#thumb5" class="thumbnail" style="background-image: url('img/thumbs/nonprofit_thumb.png')"><h4>Web UI &amp; UX Design</h4><span class="description">Project: Nonprofit </span></a>
+            </li>
+            <li>
+                <a href="#thumb6" class="thumbnail" style="background-image: url('img/thumbs/typem_thumb.png')"><h4>Typography</h4><span class="description">Project:Type</span></a>
+            </li>
+            <li>
+                <a href="#thumb7" class="thumbnail" style="background-image: url('img/thumbs/f_thumb.gif')"><h4>Animation</h4><span class="description">Project: Types</span></a>
+            </li>
+            <li>
+                <a href="#thumb8" class="thumbnail" style="background-image: url('img/thumbs/tucan_thumb.png')"><h4>Illustration</h4><span class="description">Project: Poster Zoo</span></a>
+            </li>
+            <li>
+                <a href="#thumb9" class="thumbnail" style="background-image: url('img/thumbs/signup_thumb.png')"><h4>UI &amp; UX / Animation </h4><span class="description">Project: UI Design</span></a>
+            </li>
+            <li>
+                <a href="#thumb10" class="thumbnail" style="background-image: url('img/thumbs/ba_thumb.png')"><h4>Logotype</h4><span class="description">Project: BA SA</span></a>
+            </li>
+            <li>
+                <a href="#thumb11" class="thumbnail" style="background-image: url('img/thumbs/sanpedro_thumb.png')"><h4>Branding</h4><span class="description">Project: San Pedro</span></a>
+            </li>
+            <li>
+                <a href="#thumb12" class="thumbnail" style="background-image: url('img/thumbs/pcym_thumb.png')"><h4>Poster</h4><span class="description">Project: Film Ad </span></a>
+            </li>
+            
+            
+        </ul>
+
+        <div class="portfolio-content">
+            <div id="thumb1">
+                <div class="media"><img src="img/thumbs/fc_mock.png" alt="" /></div>
+                <h1 class="display">Branding for Government</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis nisi sit amet metus venenatis, ut congue turpis aliquet. Pellentesque eget elit sollicitudin, feugiat felis in, ornare diam. Morbi blandit sapien nibh, eu pulvinar tortor luctus nec. Aenean lobortis lacus cursus gravida adipiscing. Praesent in odio porta, placerat felis id, viverra est. Nam magna quam, tincidunt eget augue in, aliquet tristique ipsum.</p>
+               
+            </div>
+
+            <div id="thumb2">
+                <div class="media"><img src="img/thumbs/anatomy_mock.png" alt="" /></div>
+                <h1 class="display">Fashion Illustration</h1>
+                <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
+                <a href="https://www.behance.net/gallery/22326815/Caliope" target="_blank" class="btn btn-primary">See full project</a>
+            </div>
+
+            <div id="thumb3">
+                <div class="media"><img src="img/thumbs/boiler_mock.png" alt="" /></div>
+                <h1 class="display">Poster Design</h1>
+                <p>Ut condimentum eros bibendum metus lacinia, ac condimentum justo faucibus. Nam nec dui convallis, sodales sapien in, gravida justo. Pellentesque pulvinar massa a nisl iaculis, quis iaculis elit tincidunt.</p>
+                
+            </div>
+
+            <div id="thumb4">
+                <div class="media"><img src="img/thumbs/catppl_mock.png" alt="" /></div>
+                <h1 class="display">Project management</h1>
+                <p>Suspendisse cursus commodo elit, at tempus felis hendrerit vel. Cras condimentum aliquam mauris at blandit. Pellentesque ac velit iaculis, lobortis nibh id, ultricies ante. Fusce vel urna justo. Maecenas rhoncus vel ligula eget feugiat. Maecenas blandit risus eros, vel imperdiet augue dapibus vitae.</p>
+                
+            </div>
+
+            <div id="thumb5">
+                <div class="media"><img src="img/thumbs/nonprofit_mock.png" alt="" /></div>
+                <h1 class="display">UI &amp; UX</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                
+            </div>
+
+            <div id="thumb6">
+                <div class="media"><img src="img/thumbs/typem_mock.png" alt="" /></div>
+                <h1 class="display">Type</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="https://dribbble.com/shots/3638892-M" class="btn btn-primary" target="_blank">See more</a>
+            </div>
+
+            <div id="thumb7">
+                <div class="media"><img src="img/thumbs/f_thumb.gif" alt="" /></div>
+                <h1 class="display">Animation</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+               
+            </div>
+
+            <div id="thumb8">
+                <div class="media"><img src="img/thumbs/tucan_mock.png" alt="" /></div>
+                <h1 class="display">Poster Illustration</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+               
+            </div>
+
+            <div id="thumb9">
+                <div class="media"><img src="img/thumbs/signup_mock.gif" alt="" /></div>
+                <h1 class="display">UI &amp; UX Sign up form Design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                
+            </div>
+
+            <div id="thumb10">
+                <div class="media"><img src="img/thumbs/ba_thumb.png" alt="" /></div>
+                <h1 class="display">Logotype</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra.</p>
+                
+            </div>
+
+            <div id="thumb11">
+                <div class="media"><img src="img/thumbs/sanpedro_mock.png" alt="" /></div>
+                <h1 class="display">Mercado San Pedro Branding</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                
+            </div>
+
+            <div id="thumb12">
+                <div class="media"><img src="img/thumbs/pcym_mock.png" alt="" /></div>
+                <h1 class="display">Poster Design</h1>
+                <p>Vestibulum gravida, ante ut consectetur dictum, dolor sapien pretium elit, sed tincidunt augue sem a lorem. Vivamus quis neque pharetra, consequat dolor vel, venenatis urna. Praesent diam quam, fermentum vel tortor eget, pulvinar tincidunt velit.</p>
+                <a href="https://www.behance.net/gallery/5104779/Para-Cuando-Yo-Me-Ausente-Promotional-Poster" target="_blank" class="btn btn-primary">Full View</a>
+            </div>
+
+            
+
+        </div>
+
+         <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://www.behance.net/randomood" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    
+                                    <i class="fa fa-behance fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://dribbble.com/randomood" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    
+                                    <i class="fa fa-dribbble fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Randomood 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+      
+
+     <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    
+
+    <!-- other Java -->
+    
+
+    </body>
+
+
+
+
+    
+</html>
